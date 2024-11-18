@@ -1,0 +1,31 @@
+
+.panel {
+	display: none;
+}
+
+.accordion {
+	display: block;
+	width: 100%;
+	text-align: left;
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+
+	&:after {
+        content: '\02795'; 
+		font-size: 13px;
+		color: #777;
+		float: right;
+		margin-left: 5px;
+    }
+}
+
+.active {
+	&:after {
+        content: "\2796"; 
+    }
+}

@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "block/accordion-item",
+	"version": "0.1.0",
+	"title": "Accordion Block Item",
+	"category": "widgets",
+	"description": "Accordion Block Item",
+	"attributes": {
+		"title": {
+        	"type": "string"
+    	},
+    	"content": {
+        	"type": "string"
+    	}
+	},
+	"parent": [
+		"block/accordion"
+	],
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "accordion-guttenberg-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php"
+
+}

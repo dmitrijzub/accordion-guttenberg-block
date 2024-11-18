@@ -1,0 +1,1 @@
+.panel{display:none}.accordion{background:none;border:none;color:inherit;cursor:pointer;display:block;font:inherit;outline:inherit;padding:0;text-align:left;width:100%}.accordion:after{color:#777;content:"➕";float:right;font-size:13px;margin-left:5px}.active:after{content:"➖"}
